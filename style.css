@@ -238,6 +238,10 @@ body {
 }
 
 @media only screen and (max-width: 1300px) {
+    .hidden-btn {
+        justify-content: center;
+    }
+
     .viewall {
         visibility: hidden;
     }
@@ -270,6 +274,10 @@ body {
         border: 1px solid lightgray;
         border-radius: 10px;
         margin-inline: 10px;
+    }
+
+    .hidden-btn {
+        justify-content: center;
     }
 
     .viewall {
@@ -327,6 +335,10 @@ body {
         border: 1px solid lightgray;
         border-radius: 10px;
         margin-inline: 10px;
+    }
+
+    .hidden-btn {
+        justify-content: center;
     }
 
     .viewall {
@@ -389,6 +401,10 @@ body {
         margin-inline: 10px;
     }
 
+    .hidden-btn {
+        justify-content: center;
+    }
+
     .viewall {
         text-align: center;
         align-items: center;
@@ -447,6 +463,10 @@ body {
         border: 1px solid lightgray;
         border-radius: 10px;
         margin-inline: 10px;
+    }
+
+    .hidden-btn {
+        justify-content: center;
     }
 
     .viewall {
