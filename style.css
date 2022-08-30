@@ -161,11 +161,11 @@ body {
 
 .hidden-btn {
     justify-content: center;
+    align-items: center;
 }
 
 .viewall {
     text-align: center;
-    align-items: center;
     color: white;
     background-color: tomato;
     text-decoration: none;
@@ -240,6 +240,7 @@ body {
 @media only screen and (max-width: 1300px) {
     .hidden-btn {
         justify-content: center;
+        align-items: center;
     }
 
     .viewall {
@@ -278,6 +279,7 @@ body {
 
     .hidden-btn {
         justify-content: center;
+        align-items: center;
     }
 
     .viewall {
@@ -339,11 +341,11 @@ body {
 
     .hidden-btn {
         justify-content: center;
+        align-items: center;
     }
 
     .viewall {
         text-align: center;
-        align-items: center;
         color: white;
         background-color: tomato;
         text-decoration: none;
@@ -403,11 +405,11 @@ body {
 
     .hidden-btn {
         justify-content: center;
+        align-items: center;
     }
 
     .viewall {
         text-align: center;
-        align-items: center;
         color: white;
         background-color: tomato;
         text-decoration: none;
@@ -467,11 +469,11 @@ body {
 
     .hidden-btn {
         justify-content: center;
+        align-items: center;
     }
 
     .viewall {
         text-align: center;
-        align-items: center;
         color: white;
         background-color: tomato;
         text-decoration: none;
