@@ -153,3 +153,64 @@ body {
 .card span {
     margin-left: 8px;
 }
+
+.footer {
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding-bottom: 30px;
+}
+
+.goal {
+    padding-top: 75px;
+    text-align: center;
+}
+
+.goal hr {
+    margin-top: 30px;
+    width: 80%;
+    font-size: 1px;
+    font-weight: 100;
+    margin-bottom: 30px;
+}
+
+.info {
+    text-decoration: none;
+    color: white;
+    margin-inline: 15px;
+    font-size: 12px;
+}
+
+.social {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.social-media {
+    color: goldenrod;
+    margin-inline: 15px;
+    font-size: 30px;
+}
+
+.match-section {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 35px;
+}
+
+.match-card {
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 30px 20px 0px 20px;
+}
+
+.match-card-header {
+    display: flex;
+    gap: 10px;
+}
+
+.timetable {
+    margin-top: 0;
+    margin-bottom: 50px;
+}
