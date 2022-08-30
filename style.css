@@ -105,7 +105,7 @@ body {
     margin-top: 20px;
     align-items: center;
     text-align: center;
-    justify-items: center;
+    justify-content: center;
     font-weight: 600;
     padding: 10px 0px;
 }
@@ -159,10 +159,13 @@ body {
     margin-left: 8px;
 }
 
+.hidden-btn {
+    justify-content: center;
+}
+
 .viewall {
     text-align: center;
     align-items: center;
-    margin-left: 45%;
     color: white;
     background-color: tomato;
     text-decoration: none;
@@ -221,6 +224,7 @@ body {
     border: 1px solid lightgray;
     border-radius: 10px;
     padding: 30px 20px 0px 20px;
+    justify-content: center;
 }
 
 .match-card-header {
@@ -328,7 +332,6 @@ body {
     .viewall {
         text-align: center;
         align-items: center;
-        margin-left: 35%;
         color: white;
         background-color: tomato;
         text-decoration: none;
@@ -389,7 +392,6 @@ body {
     .viewall {
         text-align: center;
         align-items: center;
-        margin-left: 30%;
         color: white;
         background-color: tomato;
         text-decoration: none;
@@ -450,7 +452,6 @@ body {
     .viewall {
         text-align: center;
         align-items: center;
-        margin-left: 30%;
         color: white;
         background-color: tomato;
         text-decoration: none;
