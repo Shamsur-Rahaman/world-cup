@@ -19,13 +19,15 @@ body {
     grid-template-columns: repeat(2, 1fr);
     line-height: normal;
     border-radius: 20px;
+
 }
 
 .title {
     width: 100%;
-    margin-top: 30px;
+    margin-top: 0px;
     margin-left: 50px;
     margin-bottom: 0px;
+    padding-bottom: 30px;
 }
 
 .title-para {
@@ -44,16 +46,18 @@ body {
 }
 
 .title-header {
-    font-size: 70px;
+    font-size: 90px;
 }
 
 .banner {
-    padding: 20px 60px 0px 20px;
+    padding: 20px 60px 0px 0px;
+    margin-bottom: 0;
 }
 
 .banner img {
-    margin-left: 30px;
-    height: 500px;
+    margin-left: 10px;
+    height: 100%;
+    width: 100%;
 }
 
 .title-button {
@@ -67,7 +71,7 @@ body {
 
 
 .fa-arrow-right {
-    color: black;
+    color: white;
     padding-left: 5px;
     font-weight: 500;
 }
@@ -87,7 +91,8 @@ body {
     flex-direction: column;
     align-items: center;
     border-radius: 10px;
-
+    justify-content: space-around;
+    padding-bottom: 20px;
 }
 
 .common {
@@ -154,7 +159,20 @@ body {
     margin-left: 8px;
 }
 
+.viewall {
+    text-align: center;
+    align-items: center;
+    margin-left: 45%;
+    color: white;
+    background-color: tomato;
+    text-decoration: none;
+    padding: 20px 30px;
+    border-radius: 10px;
+    font-size: 25px;
+}
+
 .footer {
+    margin-top: 50px;
     width: 100%;
     background-color: black;
     color: white;
@@ -213,4 +231,382 @@ body {
 .timetable {
     margin-top: 0;
     margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 1300px) {
+    .viewall {
+        visibility: hidden;
+    }
+}
+
+@media only screen and (max-width: 1150px) {
+
+    .title-header {
+        font-size: 75px;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu {
+        display: inline-block;
+        background-color: white;
+        height: auto;
+        width: 100%;
+        margin-bottom: 30px;
+        justify-content: space-around
+    }
+
+    .common {
+        margin-left: 0;
+        font-size: 30px;
+        padding: 20px 30px;
+        border: 1px solid lightgray;
+        border-radius: 10px;
+        margin-inline: 10px;
+    }
+
+    .viewall {
+        visibility: visible;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+
+    .title-header {
+        font-size: 60px;
+    }
+
+    .title-para {
+        font-size: 12px;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu {
+        display: inline-block;
+        background-color: white;
+        height: auto;
+        width: 100%;
+        margin-bottom: 30px;
+        justify-content: space-around
+    }
+
+    .watch-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 35px;
+    }
+
+    .match-section {
+        text-align: center;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 35px;
+    }
+
+    .card {
+        width: 100%;
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    .common {
+        margin-left: 0;
+        font-size: 30px;
+        padding: 20px 30px;
+        border: 1px solid lightgray;
+        border-radius: 10px;
+        margin-inline: 10px;
+    }
+
+    .viewall {
+        text-align: center;
+        align-items: center;
+        margin-left: 35%;
+        color: white;
+        background-color: tomato;
+        text-decoration: none;
+        padding: 20px 30px;
+        border-radius: 10px;
+        font-size: 25px;
+    }
+
+}
+
+@media only screen and (max-width: 800px) {
+
+    .title-header {
+        font-size: 50px;
+    }
+
+    .title-para {
+        font-size: 12px;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .common {
+        margin-left: 0;
+        font-size: 30px;
+        padding: 20px 30px;
+        border: 1px solid lightgray;
+        border-radius: 10px;
+        margin-inline: 10px;
+        display: block;
+    }
+
+    .watch-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 35px;
+    }
+
+    .match-section {
+        text-align: center;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 35px;
+    }
+
+    .common {
+        margin-left: 0;
+        font-size: 30px;
+        padding: 20px 30px;
+        border: 1px solid lightgray;
+        border-radius: 10px;
+        margin-inline: 10px;
+    }
+
+    .viewall {
+        text-align: center;
+        align-items: center;
+        margin-left: 30%;
+        color: white;
+        background-color: tomato;
+        text-decoration: none;
+        padding: 20px 30px;
+        border-radius: 10px;
+        font-size: 25px;
+    }
+
+}
+
+@media only screen and (max-width: 700px) {
+
+    .title-header {
+        font-size: 50px;
+    }
+
+    .title-para {
+        font-size: 12px;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .common {
+        margin-left: 0;
+        font-size: 30px;
+        padding: 20px 30px;
+        border: 1px solid lightgray;
+        border-radius: 10px;
+        margin-inline: 10px;
+        display: block;
+    }
+
+    .watch-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 35px;
+    }
+
+    .match-section {
+        text-align: center;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 35px;
+    }
+
+    .common {
+        margin-left: 0;
+        font-size: 30px;
+        padding: 20px 30px;
+        border: 1px solid lightgray;
+        border-radius: 10px;
+        margin-inline: 10px;
+    }
+
+    .viewall {
+        text-align: center;
+        align-items: center;
+        margin-left: 30%;
+        color: white;
+        background-color: tomato;
+        text-decoration: none;
+        padding: 20px 30px;
+        border-radius: 10px;
+        font-size: 25px;
+    }
+
+}
+
+@media only screen and (max-width: 675px) {
+
+    .header {
+        text-align: center;
+        background-color: black;
+        font-family: 'Roboto Condensed', sans-serif;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        line-height: normal;
+        border-radius: 20px;
+    }
+
+    .title {
+        width: 100%;
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-bottom: 0px;
+        padding-bottom: 30px;
+    }
+
+    .title-header {
+        font-size: 50px;
+    }
+
+    .title-para {
+        font-size: 12px;
+    }
+
+    .title-button {
+        padding: 10px 15px;
+        background-color: tomato;
+        border-radius: 5px;
+        border-style: none;
+        color: white;
+        font-weight: 600;
+    }
+
+    .banner {
+        padding-left: 45px;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .watch-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 35px;
+    }
+
+    .match-section {
+        text-align: center;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 35px;
+    }
+
+    .common {
+        margin-left: 0;
+        font-size: 30px;
+        padding: 20px 30px;
+        border: 1px solid lightgray;
+        border-radius: 10px;
+        margin-inline: 10px;
+        display: block;
+    }
+
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    .header {
+        text-align: center;
+        background-color: black;
+        font-family: 'Roboto Condensed', sans-serif;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        line-height: normal;
+        border-radius: 20px;
+    }
+
+    .title {
+        width: 100%;
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-bottom: 0px;
+        padding-bottom: 30px;
+    }
+
+    .title-header {
+        font-size: 50px;
+    }
+
+    .title-para {
+        font-size: 12px;
+    }
+
+    .title-button {
+        padding: 10px 15px;
+        background-color: tomato;
+        border-radius: 5px;
+        border-style: none;
+        color: white;
+        font-weight: 600;
+    }
+
+    .banner {
+        padding-left: 45px;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .watch-list {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 35px;
+    }
+
+    .match-section {
+        text-align: center;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 35px;
+    }
+
+    .common {
+        margin-left: 0;
+        font-size: 30px;
+        padding: 20px 30px;
+        border: 1px solid lightgray;
+        border-radius: 10px;
+        margin-inline: 10px;
+        display: block;
+    }
+
+
 }
